@@ -1,0 +1,7 @@
+nome=str(input('Digite seu nome: ')).strip()
+print("Tudo maiusculo: {}".format(nome.upper()))
+print('Tudo minusculo: {}'.format(nome.lower()))
+print('Sem espaço: {}'.format(len(nome.replace(' ',''))))
+print('Sem espaço: {}'.format(len(nome) - nome.count(' ')))
+dividido=nome.split()
+print('Letras no primeiro nome {}'.format(len(dividido[0])))
