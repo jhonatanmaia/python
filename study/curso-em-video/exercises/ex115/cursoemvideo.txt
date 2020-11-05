@@ -1,0 +1,3 @@
+Maria;10
+Joao;20
+Jorge;5
